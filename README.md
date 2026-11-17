@@ -4,25 +4,22 @@
 ![macOS 15+](https://img.shields.io/badge/macOS-15%2B-informational)
 ![Apple Silicon](https://img.shields.io/badge/Apple%20Silicon-native-informational)
 ![Works offline](https://img.shields.io/badge/recognition-on%20your%20Mac-informational)
-![Interface: Russian](https://img.shields.io/badge/interface-%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-informational)
+![Interface: English, Russian](https://img.shields.io/badge/interface-English%20%7C%20%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-informational)
 ![Free](https://img.shields.io/badge/price-free-green)
 
-Speech to text for macOS, with a Russian interface. Drop in an audio or video file and get the text split by speaker, with the time of every line: who said what, and when. Recognition runs entirely on your Mac; the sound never leaves it.
+Speech to text for macOS, in English and Russian. Drop in an audio or video file and get the text split by speaker, with the time of every line: who said what, and when. Recognition runs entirely on your Mac; the sound never leaves it.
 
 **[Download the latest release](https://github.com/Toys-D/QalamVoice/releases/latest)** · macOS 15 (Sequoia) or newer · Apple Silicon · free
 
 <img src=".github/screenshots/banner.png" alt="Qalam Voice — speech to text on your Mac: who said what, and when">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset=".github/screenshots/main-dark.png">
-  <img src=".github/screenshots/main-light.png" alt="Qalam Voice: a meeting recording split into speakers, with the recording analysis on the right">
-</picture>
+<img src=".github/screenshots/en-main.jpg" alt="Qalam Voice: a meeting recording split into speakers, with the recording analysis on the right">
 
 | | |
 |:---:|:---:|
-| <img src=".github/screenshots/summary.png" alt="A summary of the meeting made by the assistant"> | <img src=".github/screenshots/download.png" alt="The video download queue with per-link settings"> |
+| <img src=".github/screenshots/en-summary.jpg" alt="A summary of the meeting made by the assistant"> | <img src=".github/screenshots/en-download.jpg" alt="The video download queue with per-link settings"> |
 | **The assistant:** fix mistakes, translate, summarise — as separate versions of the text | **Video by link:** YouTube and other sites, a queue with settings for each link |
-| <img src=".github/screenshots/dictation.png" alt="The dictation tab with the microphone button"> | <img src=".github/screenshots/settings.png" alt="Recognition settings with profiles and models"> |
+| <img src=".github/screenshots/en-dictation.jpg" alt="The dictation tab with the microphone button"> | <img src=".github/screenshots/en-settings.jpg" alt="Recognition settings with profiles and models"> |
 | **Dictation:** speak into the microphone, add the Mac's own sound if you need it | **Settings:** profiles, models and every knob explained in place |
 
 ## How it works
@@ -42,7 +39,7 @@ Speech to text for macOS, with a Russian interface. Drop in an audio or video fi
 - **Dictation.** Speak and get text in seconds; add the Mac's own sound (a call, a video) or record the Mac without the microphone; keep the sound file without recognising it.
 - **Playback.** A scrub bar, back to start, ±10 seconds; a click on any line plays it.
 - **Updates from inside the app.** Once a day it checks for a new version, downloads it, verifies the checksum and replaces itself. No GitHub account needed.
-- **Built-in help** in Russian, with pictures: every button and setting explained.
+- **Built-in help** in English and Russian, with pictures: every button and setting explained.
 
 ## Privacy
 
@@ -76,13 +73,18 @@ Models are downloaded on first use under their own licences: GigaAM (Sber), Whis
 
 ## По-русски
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/screenshots/main-dark.png">
+  <img src=".github/screenshots/main-light.png" alt="Qalam Voice по-русски: запись совещания по говорящим, справа анализ записи">
+</picture>
+
 Расшифровка речи для macOS. Перетащите аудио или видео — получите текст по говорящим со временем каждой реплики: кто что сказал и когда. Всё распознаётся на этом Mac, звук никуда не отправляется.
 
 **[Скачать последнюю версию](https://github.com/Toys-D/QalamVoice/releases/latest)** · macOS 15 (Sequoia) и новее, Apple Silicon · бесплатно.
 
 **Как это работает.** Добавьте запись (перетащите файл в окно или вставьте ссылку на вкладке «Скачать видео») → нажмите **«Распознать»** (⌘R) → читайте текст, щелчком по реплике слушайте это место, переименуйте говорящих и поправьте текст → **«Экспорт»** (⌘E) в Word, TXT или субтитры SRT.
 
-**Что умеет.** Распознавание на Mac: GigaAM для русского (точнее на шумных и дальних записях), Whisper для английского и ещё 90 с лишним языков, смешанная речь, фильтр выдуманного текста. Говорящие различаются сами («Персона 1», «Персона 2»), по желанию — пол и примерный возраст; или режим «без говорящих» — абзацы по паузам. Анализ записи: громкость, шум, эхо, доля речи, оценка и автоподбор настроек. Помощник по желанию — исправить ошибки, перевести, сделать сводку отдельными версиями текста; через Claude, любой совместимый с OpenAI сервер или модель на этом Mac (Ollama, LM Studio); перед запуском можно уточнить запрос: «выдели задачи и сроки». Скачивание видео и звука с YouTube и других сайтов до 4K — очередью, с отрезком и субтитрами, сразу в распознавание. Диктовка с микрофона, по желанию со звуком Mac (созвон, видео) или только звук Mac; звук можно сохранить без распознавания. Плеер с дорожкой перемотки и ±10 секунд. Обновление из программы: раз в день проверяет новую версию, скачивает, сверяет контрольную сумму и ставит сама — аккаунт GitHub не нужен. Подробная справка с картинками.
+**Что умеет.** Распознавание на Mac: GigaAM для русского (точнее на шумных и дальних записях), Whisper для английского и ещё 90 с лишним языков, смешанная речь, фильтр выдуманного текста. Говорящие различаются сами («Персона 1», «Персона 2»), по желанию — пол и примерный возраст; или режим «без говорящих» — абзацы по паузам. Анализ записи: громкость, шум, эхо, доля речи, оценка и автоподбор настроек. Помощник по желанию — исправить ошибки, перевести, сделать сводку отдельными версиями текста; через Claude, любой совместимый с OpenAI сервер или модель на этом Mac (Ollama, LM Studio); перед запуском можно уточнить запрос: «выдели задачи и сроки». Скачивание видео и звука с YouTube и других сайтов до 4K — очередью, с отрезком и субтитрами, сразу в распознавание. Диктовка с микрофона, по желанию со звуком Mac (созвон, видео) или только звук Mac; звук можно сохранить без распознавания. Плеер с дорожкой перемотки и ±10 секунд. Обновление из программы: раз в день проверяет новую версию, скачивает, сверяет контрольную сумму и ставит сама — аккаунт GitHub не нужен. Окно и справка — на русском и английском (язык выбирается в настройках). Подробная справка с картинками.
 
 **Приватность.** Распознавание, говорящие и анализ считаются на этом Mac. Интернет нужен, чтобы один раз скачать модели, помощников для скачивания видео и сами видео. Текст записи уходит в интернет только по кнопке «Помощник», если вы сами подключили сервер; с моделью на этом Mac не уходит и он. Звук не отправляется никогда.
 
